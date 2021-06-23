@@ -35,9 +35,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
                 echo "Something went wrong";
             }
         }
-      }
-      mysqli_stmt_close($stmt);
+    }
 
+    mysqli_stmt_close($stmt);
 
 
 // Check for password
